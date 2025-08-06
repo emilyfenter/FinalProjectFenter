@@ -1,1 +1,121 @@
+@charset "utf-8";
 
+Emily Fenter Final Project
+File name = style.css
+
+General Look
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: green;
+  color: black;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+Header
+
+header {
+  background-color: #5C4033;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+Navigation
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center:
+  gap: 20px;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+Interactive
+
+nav a:hover
+nav a:focus {
+  background-color: #795548;
+  border-radius: 5px;
+}
+
+Layout
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 2;
+}
+
+aside {
+  background-color: light green;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
+}
+
+Section Grid
+
+#gallery {
+  display: grid;
+  grid-template-columns: repeat (auto-fit, minmax(250px, 1f4));
+  gap:10px;
+}
+
+Selector
+
+#gallery.gallery-grid img {
+  width: 100%
+  height:auto;
+  display: block;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+#gallery.gallery-grid img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px dark green;
+}
+
+Video Details
+
+video {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+Footer Details
+
+foot {
+  text-align:center;
+  padding: 20px;
+  background-color: green;
+  color: white;
+  margin-top: 20px;
+}
