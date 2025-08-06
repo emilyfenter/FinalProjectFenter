@@ -1,18 +1,60 @@
 <!DOCTYPE.html>
 <html lang="en">
-  <head>
+  <header>
     Emily Fenter Final Project
     file name = index.html
     <meta charset="utf-8"/>
     <meta name="view" content="width=device-width, initial-scale=1" />
-    <title>All About Horses</title>
+    <title>Emily's Horseback Riding Adventure</title>
     <link ref="stylesheet" href="style.css" />  
-  </head>
+  </header>
 
   <body>
+    <div class="container">
     <header>
-      
-        
-      </nav>
+      <h1>Emily's Horseback Riding Adventure</h1>
+      <nav>
+        <ul>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#videos">Videos</a></li>
+        </ul>
+      </nav> 
     </header>
+
+    <main>
+    <section id="about-me">
+      <h2>About the Horses I Ride</h2>
+      <p>I've loved horses my whole life and have ridden on and off since fourth grade, so it's been a while.</p>
+      <article>
+        <h3>Grayson</h3>
+        <p>Grayson was the first horse I fell in love with as an adult. He gave me confidence and made me work for a good lesson.</p>
+        <img src="grayson.jpg" alt="A photo of me and Grayson">
+      </article>
+    </section>
+
+    <section id="gallery">
+      <h2>Photos!</h2>
+      <p>Here are some of my favorite photos of my favorite horses!</p>
+      <div class="gallery-grid">
+        <img src="horse1.jpg" alt="Toi">
+        <img src="horse2.jpg" alt="Scarlett">
+        <img src="horse3.jpg" alt="Monty">
+      </div>    
+    </section>
+
+    <section id="videos">
+      <h2>Videos of my riding!</h2>
+      <p>Here are a few videos of me in action!</p>
+      <video controls>
+        <source  src="my-horse-video.mp4" type="video/mp4">
+      </video>
+    </section>
+    </main>
+    </div>
+
+    <footer>
+      <p>&copy; Emily's Horse Adventures - 2025 </p>
+    </footer>
   </body>
+</html>
