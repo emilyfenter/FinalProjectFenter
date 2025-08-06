@@ -91,6 +91,12 @@ img {
   display: block;
 }
 
+#grayson.jpg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 Selector
 
 #gallery.gallery-grid img {
