@@ -9,7 +9,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: rgb(3, 128, 3);
+  background-color: #f4f4f4;
   color: black;
 }
 
@@ -64,14 +64,14 @@ main {
 }
 
 section {
-  background-color: rgb(3, 128, 3);
+  background-color: #ffffff;
   padding: 20px;
   border-radius: 8px;
   flex: 2;
 }
 
 aside {
-  background-color: rgb(3, 128, 3);
+  background-color: #f0f0f0;
   padding: 20px;
   border-radius: 8px;
   flex: 1;
@@ -127,7 +127,7 @@ video {
 footer {
   text-align:center;
   padding: 20px;
-  background-color: rgb(3, 128, 3);
-  color: rgb(0,0,0);
+  background-color: rgb(92, 64, 51);
+  color: rgb(255, 255, 255);
   margin-top: 20px;
 }
