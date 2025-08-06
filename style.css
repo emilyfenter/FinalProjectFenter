@@ -93,6 +93,10 @@ img {
   margin: 0 auto;
 }
 
+#my-specific-image {
+  width: 800px;
+}
+
 Selector
 
 #gallery.gallery-grid img {
