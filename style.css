@@ -1,9 +1,9 @@
 @charset "utf-8";
 
-Emily Fenter Final Project
-File name = style.css
+/* Emily Fenter Final Project */
+/* File name = style.css */
 
-General Look
+/* General Look */
 
 body {
   font-family: Arial, sans-serif;
@@ -19,7 +19,7 @@ body {
   padding: 20px;
 }
 
-Header
+/* Header */
 
 header {
   background-color: rgb(92, 64, 51);
@@ -28,14 +28,14 @@ header {
   text-align: center;
 }
 
-Navigation
+/* Navigation */
 
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center:
+  justify-content: center;
   gap: 20px;
 }
 
@@ -46,15 +46,15 @@ nav a{
   display: block;
 }
 
-Interactive
+/* Interactive */
 
-nav a:hover
+nav a:hover,
 nav a:focus {
   background-color: rgb(121, 85, 72) ;
   border-radius: 5px;
 }
 
-Layout
+/* Layout */
 
 main {
   display: flex;
@@ -77,11 +77,11 @@ aside {
   flex: 1;
 }
 
-Section Grid
+/* Section Grid */
 
 #gallery {
   display: grid;
-  grid-template-columns: repeat (auto-fit, minmax(250px, 1f4));
+  grid-template-columns: repeat (auto-fit, minmax(250px, 1fr));
   gap:10px;
 }
 
@@ -97,9 +97,9 @@ img {
   width: 800px;
 }
 
-Selector
+/* Selector */
 
-#gallery.gallery-grid img {
+#gallery .gallery-grid img {
   width: 100%
   height:auto;
   display: block;
@@ -107,12 +107,12 @@ Selector
   transition: transform 0.3s ease;
 }
 
-#gallery.gallery-grid img:hover {
+#gallery .gallery-grid img:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 8px rgb(0, 255, 0);
 }
 
-Video Details
+/* Video Details */
 
 video {
   width: 100%;
@@ -122,9 +122,9 @@ video {
   margin: 0 auto;
 }
 
-Footer Details
+/* Footer Details */
 
-foot {
+footer {
   text-align:center;
   padding: 20px;
   background-color: rgb(0, 255, 0);
