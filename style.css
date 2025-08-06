@@ -9,7 +9,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: rgb(0, 255, 0);
+  background-color: rgb(3, 128, 3);
   color: black;
 }
 
@@ -23,7 +23,7 @@ body {
 
 header {
   background-color: rgb(92, 64, 51);
-  color: rgb(255, 255, 255);
+  color: rgb(0,0,0);
   padding: 20px;
   text-align: center;
 }
@@ -40,7 +40,7 @@ nav ul {
 }
 
 nav a{
-  color: rgb(255, 255, 255);
+  color: rgb(0,0,0);
   text-decoration: none;
   padding: 10px;
   display: block;
@@ -64,14 +64,14 @@ main {
 }
 
 section {
-  background-color: rgb(0, 255, 0);
+  background-color: rgb(3, 128, 3);
   padding: 20px;
   border-radius: 8px;
   flex: 2;
 }
 
 aside {
-  background-color: rgb(0, 255, 0);
+  background-color: rgb(3, 128, 3);
   padding: 20px;
   border-radius: 8px;
   flex: 1;
@@ -109,7 +109,7 @@ img {
 
 #gallery .gallery-grid img:hover {
   transform: scale(1.05);
-  box-shadow: 0 4px 8px rgb(0, 255, 0);
+  box-shadow: 0 4px 8px rgb(3, 128, 3);
 }
 
 /* Video Details */
@@ -127,7 +127,7 @@ video {
 footer {
   text-align:center;
   padding: 20px;
-  background-color: rgb(0, 255, 0);
-  color: rgb(255, 255, 255);
+  background-color: rgb(3, 128, 3);
+  color: rgb(0,0,0);
   margin-top: 20px;
 }
