@@ -9,7 +9,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: green;
+  background-color: rgb(0, 255, 0);
   color: black;
 }
 
@@ -22,8 +22,8 @@ body {
 Header
 
 header {
-  background-color: #5C4033;
-  color: white;
+  background-color: rgb(92, 64, 51);
+  color: rgb(255, 255, 255);
   padding: 20px;
   text-align: center;
 }
@@ -40,7 +40,7 @@ nav ul {
 }
 
 nav a{
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   padding: 10px;
   display: block;
@@ -50,7 +50,7 @@ Interactive
 
 nav a:hover
 nav a:focus {
-  background-color: #795548;
+  background-color: rgb(121, 85, 72) ;
   border-radius: 5px;
 }
 
@@ -64,14 +64,14 @@ main {
 }
 
 section {
-  background-color: white;
+  background-color: rgb(0, 255, 0);
   padding: 20px;
   border-radius: 8px;
   flex: 2;
 }
 
 aside {
-  background-color: light green;
+  background-color: rgb(0, 255, 0);
   padding: 20px;
   border-radius: 8px;
   flex: 1;
@@ -109,7 +109,7 @@ Selector
 
 #gallery.gallery-grid img:hover {
   transform: scale(1.05);
-  box-shadow: 0 4px 8px dark green;
+  box-shadow: 0 4px 8px rgb(0, 255, 0);
 }
 
 Video Details
@@ -127,7 +127,7 @@ Footer Details
 foot {
   text-align:center;
   padding: 20px;
-  background-color: green;
-  color: white;
+  background-color: rgb(0, 255, 0);
+  color: rgb(255, 255, 255);
   margin-top: 20px;
 }
